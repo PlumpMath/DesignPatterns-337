@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Factory
 {
-    public sealed class FantasyCharacterGenerator : AbstractCharacterFactory
+    public sealed class FantasyCharacterFactory : AbstractCharacterFactory
     {
         public override Character CreateCharacter()
         {
-            return new ElfCharacter();
+            return new Elf();
         }
 
         public override Monster CreateMonster()
@@ -19,11 +19,11 @@ namespace DesignPatterns.Factory
     {
     }
 
-    public sealed class ElfCharacter : Character
+    public sealed class Elf : Character
     {
         public override void Attack(Monster monster)
         {
-            Console.Write("The {0} pricks the {1} with a girly dagger.", GetType().Name, monster.GetType().Name);
+            Console.Write("The {0} attacks the {1}.", GetType().Name, monster.GetType().Name);
         }
     }
 }

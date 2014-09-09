@@ -43,8 +43,8 @@
   <ItemGroup>
     <Compile Include="Factory\AbstractCharacterFactory.cs" />
     <Compile Include="Factory\Client.cs" />
-    <Compile Include="Factory\FantasyCharacterGenerator.cs" />
-    <Compile Include="Factory\SciFiCharacterGenerator.cs" />
+    <Compile Include="Factory\FantasyCharacterFactory.cs" />
+    <Compile Include="Factory\SciFiCharacterFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

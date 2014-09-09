@@ -1,1 +1,7 @@
 D:\Users\jason.knight\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPattersn.exe.config
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPattersn.exe.config
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPattersn.exe
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPattersn.pdb
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPattersn.exe
+C:\Users\Jason\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPattersn.pdb

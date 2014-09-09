@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Factory
 {
-    public sealed class SciFiCharacterGenerator : AbstractCharacterFactory
+    public sealed class SciFiCharacterFactory : AbstractCharacterFactory
     {
         public override Character CreateCharacter()
         {
@@ -21,7 +21,7 @@ namespace DesignPatterns.Factory
     public sealed class SpaceMarine : Character
     {
         public override void Attack(Monster monster)
-        {
+            {
             Console.WriteLine("The {0} attacks the {1}", GetType().Name, monster.GetType().Name);
         }
     }

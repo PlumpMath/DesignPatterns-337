@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Factory;
+﻿using System;
+using DesignPatterns.Factory;
 
 namespace DesignPatterns
 {
@@ -6,7 +7,15 @@ namespace DesignPatterns
     {
         static void Main( string[] args )
         {
-            
+            var sciFiClient = new Client(new SciFiCharacterFactory());
+
+            sciFiClient.Run();
+
+            var fantasyClient = new Client(new FantasyCharacterFactory());
+
+            fantasyClient.Run();
+
+            Console.ReadKey();
         }
     }
 }
