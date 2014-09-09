@@ -5,7 +5,7 @@
         private readonly Character _character;
         private readonly Monster _monster;
 
-        public Client( AbstractCharacterFactory factory )
+        public Client( WorldFactory factory )
         {
             _character = factory.CreateCharacter();
             _monster = factory.CreateMonster();

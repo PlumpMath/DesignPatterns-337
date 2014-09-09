@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Factory
 {
-    public abstract class AbstractCharacterFactory
+    public abstract class WorldFactory
     {
         public abstract Character CreateCharacter();
         public abstract Monster CreateMonster();

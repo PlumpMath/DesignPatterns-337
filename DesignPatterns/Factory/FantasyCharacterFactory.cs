@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Factory
 {
-    public sealed class FantasyCharacterFactory : AbstractCharacterFactory
+    public sealed class FantasyCharacterFactory : WorldFactory
     {
         public override Character CreateCharacter()
         {
